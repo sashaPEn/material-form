@@ -16,7 +16,7 @@ export const encodeToBase64 = (file: File): Promise<string> => (
 // TODO: remove fake send data
 export const fakeSendData = (data: IFormData): Promise<string> => {
   const json = JSON.stringify(data);
-
+  console.log('data: ', json);
   return new Promise((resolve) => {
     setTimeout(() => resolve(json), 1000);
   });
