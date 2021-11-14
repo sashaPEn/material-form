@@ -1,6 +1,5 @@
 {
   "name": "material-form",
-  "homepage": "https://pestrige.github.io/material-form",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
