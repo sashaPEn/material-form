@@ -56,7 +56,7 @@ const Form = (): JSX.Element => {
   };
 
   return (
-    <form onSubmit={handleSubmit} >
+    <form onSubmit={handleSubmit} netlify>
 
       <Typography variant='h4' component='h1' align='center' mb={4} pt={2}>
         Форма обратной связи
